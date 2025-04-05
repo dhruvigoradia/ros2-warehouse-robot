@@ -1,0 +1,43 @@
+[13.063s] Invoking command in '/home/ros/ros2_ws/src/warehouse_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/warehouse_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_sim build --build-base /home/ros/ros2_ws/build/warehouse_sim/build install --record /home/ros/ros2_ws/build/warehouse_sim/install.log --single-version-externally-managed install_data
+[13.585s] running egg_info
+[13.672s] creating ../../build/warehouse_sim/warehouse_sim.egg-info
+[13.731s] writing ../../build/warehouse_sim/warehouse_sim.egg-info/PKG-INFO
+[13.739s] writing dependency_links to ../../build/warehouse_sim/warehouse_sim.egg-info/dependency_links.txt
+[13.739s] writing requirements to ../../build/warehouse_sim/warehouse_sim.egg-info/requires.txt
+[13.739s] writing top-level names to ../../build/warehouse_sim/warehouse_sim.egg-info/top_level.txt
+[13.739s] writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+[14.262s] reading manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+[14.263s] writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+[14.266s] running build
+[14.266s] running build_py
+[14.279s] creating /home/ros/ros2_ws/build/warehouse_sim/build
+[14.279s] creating /home/ros/ros2_ws/build/warehouse_sim/build/lib
+[14.279s] creating /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim
+[14.279s] copying warehouse_sim/__init__.py -> /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim
+[14.279s] running install
+[14.326s] running install_lib
+[14.551s] creating /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim
+[14.552s] copying /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim/__init__.py -> /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim
+[14.563s] byte-compiling /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim/__init__.py to __init__.cpython-312.pyc
+[14.563s] running install_data
+[14.565s] creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index
+[14.565s] creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index
+[14.566s] creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages
+[14.566s] copying resource/warehouse_sim -> /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages
+[14.571s] copying package.xml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim
+[14.571s] creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+[14.571s] copying launch/warehouse_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+[14.571s] copying launch/warehouse_full_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+[14.572s] copying launch/warehouse_launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+[14.577s] creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/worlds
+[14.585s] creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config
+[14.586s] copying config/tugbot_control.yaml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config
+[14.587s] creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/models
+[14.587s] creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+[14.587s] copying urdf/tugbot.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+[14.589s] copying urdf/tugbot_tf.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+[14.614s] running install_egg_info
+[14.685s] Copying ../../build/warehouse_sim/warehouse_sim.egg-info to /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim-0.0.1-py3.12.egg-info
+[14.694s] running install_scripts
+[15.033s] writing list of installed files to '/home/ros/ros2_ws/build/warehouse_sim/install.log'
+[15.037s] Invoked command in '/home/ros/ros2_ws/src/warehouse_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/warehouse_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_sim build --build-base /home/ros/ros2_ws/build/warehouse_sim/build install --record /home/ros/ros2_ws/build/warehouse_sim/install.log --single-version-externally-managed install_data

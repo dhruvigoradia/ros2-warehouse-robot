@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<robot name="tugbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Base link -->
+  <link name="base_link"/>
+
+  <!-- Left wheel -->
+  <link name="left_wheel"/>
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Right wheel -->
+  <link name="right_wheel"/>
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Plugin for Gazebo Harmonic diff drive system -->
+  <gazebo>
+    <plugin name="diff_drive" filename="gz-sim-diff-drive-system">
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.4</wheel_separation>
+      <wheel_radius>0.1</wheel_radius>
+      <topic>/model/tugbot/cmd_vel</topic>
+      <odom_topic>/model/tugbot/odometry</odom_topic>
+
+      <!-- 🔥 The most important parts -->
+      <publish_odom>true</publish_odom>
+      <publish_tf>true</publish_tf>
+      <odometry_source>world</odometry_source>
+      <frame_id>base_link</frame_id>
+      <odom_frame_id>odom</odom_frame_id>
+    </plugin>
+
+
+  </gazebo>
+
+</robot>

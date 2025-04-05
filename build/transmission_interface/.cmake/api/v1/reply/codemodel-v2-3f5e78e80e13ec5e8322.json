@@ -1,0 +1,247 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5dc10238d646d48c0250.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "transmission_interface",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__transmission_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__transmission_interface-ed6b0e358a05a95b7ac6.json",
+					"name" : "ament_generate_version_header__transmission_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-9bc2d7fbfbb3ae718061.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-d0e047c666205fca5f39.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-c93657fe642a99d2293c.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-7dd492954486912bf3c2.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_differential_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_differential_transmission-409b5b0dfffec9f21dca.json",
+					"name" : "test_differential_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_differential_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_differential_transmission_loader-e60ff4e8159fd0a10f0b.json",
+					"name" : "test_differential_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_four_bar_linkage_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_four_bar_linkage_transmission-7accd2547c53a0aae6dd.json",
+					"name" : "test_four_bar_linkage_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_four_bar_linkage_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_four_bar_linkage_transmission_loader-443e7363a68260ab5096.json",
+					"name" : "test_four_bar_linkage_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simple_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simple_transmission-86352e5ef943cb02ec26.json",
+					"name" : "test_simple_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simple_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simple_transmission_loader-a9f1d3d662fe5f578dba.json",
+					"name" : "test_simple_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_utils-f396e7ff8a16b52e1c07.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transmission_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transmission_interface-8b0cd8dc85ce1db42680.json",
+					"name" : "transmission_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transmission_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transmission_interface_uninstall-5ac7bf50e3b7f7aba15b.json",
+					"name" : "transmission_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c906f380d25b47c92af.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/ros2_ws/build/transmission_interface",
+		"source" : "/home/ros/ros2_ws/src/ros-controls/ros2_control/transmission_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

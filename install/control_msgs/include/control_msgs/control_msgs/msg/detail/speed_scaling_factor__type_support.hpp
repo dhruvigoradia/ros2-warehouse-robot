@@ -1,0 +1,1 @@
+/home/ros/ros2_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/detail/speed_scaling_factor__type_support.hpp

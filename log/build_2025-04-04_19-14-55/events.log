@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.001571] (color_detection) JobQueued: {'identifier': 'color_detection', 'dependencies': OrderedDict()}
+[0.002092] (warehouse_sim) JobQueued: {'identifier': 'warehouse_sim', 'dependencies': OrderedDict()}
+[0.003743] (color_detection) JobStarted: {'identifier': 'color_detection'}
+[0.100656] (-) TimerEvent: {}
+[0.139933] (warehouse_sim) JobStarted: {'identifier': 'warehouse_sim'}
+[0.201358] (-) TimerEvent: {}
+[0.301888] (-) TimerEvent: {}
+[0.523167] (-) TimerEvent: {}
+[0.629289] (-) TimerEvent: {}
+[0.730171] (-) TimerEvent: {}
+[0.837477] (-) TimerEvent: {}
+[1.029291] (-) TimerEvent: {}
+[1.173570] (-) TimerEvent: {}
+[1.324444] (-) TimerEvent: {}
+[1.447467] (-) TimerEvent: {}
+[1.549386] (-) TimerEvent: {}
+[1.650216] (-) TimerEvent: {}
+[1.960699] (-) TimerEvent: {}
+[2.062588] (-) TimerEvent: {}
+[2.164673] (-) TimerEvent: {}
+[2.266651] (-) TimerEvent: {}
+[2.369425] (-) TimerEvent: {}
+[2.475431] (-) TimerEvent: {}
+[2.585607] (-) TimerEvent: {}
+[2.692895] (-) TimerEvent: {}
+[2.798033] (-) TimerEvent: {}
+[2.899142] (-) TimerEvent: {}
+[3.005282] (-) TimerEvent: {}
+[3.110814] (-) TimerEvent: {}
+[3.230415] (-) TimerEvent: {}
+[3.337289] (-) TimerEvent: {}
+[3.443819] (-) TimerEvent: {}
+[3.545234] (-) TimerEvent: {}
+[3.655270] (-) TimerEvent: {}
+[3.789185] (-) TimerEvent: {}
+[3.902648] (-) TimerEvent: {}
+[4.017774] (-) TimerEvent: {}
+[4.144360] (-) TimerEvent: {}
+[4.258739] (-) TimerEvent: {}
+[4.450326] (-) TimerEvent: {}
+[4.562338] (-) TimerEvent: {}
+[4.664357] (-) TimerEvent: {}
+[4.767766] (-) TimerEvent: {}
+[4.918827] (-) TimerEvent: {}
+[5.020206] (-) TimerEvent: {}
+[5.142286] (-) TimerEvent: {}
+[5.250351] (-) TimerEvent: {}
+[5.351374] (-) TimerEvent: {}
+[5.472729] (-) TimerEvent: {}
+[5.581377] (-) TimerEvent: {}
+[5.695843] (-) TimerEvent: {}
+[5.837299] (-) TimerEvent: {}
+[5.943225] (-) TimerEvent: {}
+[6.096480] (-) TimerEvent: {}
+[6.214726] (-) TimerEvent: {}
+[6.319837] (-) TimerEvent: {}
+[6.432347] (-) TimerEvent: {}
+[7.310482] (-) TimerEvent: {}
+[7.411654] (-) TimerEvent: {}
+[7.521585] (-) TimerEvent: {}
+[7.623382] (-) TimerEvent: {}
+[7.749134] (-) TimerEvent: {}
+[7.864489] (-) TimerEvent: {}
+[7.976496] (-) TimerEvent: {}
+[8.077408] (-) TimerEvent: {}
+[8.185763] (-) TimerEvent: {}
+[8.286323] (-) TimerEvent: {}
+[8.390552] (-) TimerEvent: {}
+[8.502572] (-) TimerEvent: {}
+[8.637407] (-) TimerEvent: {}
+[8.741304] (-) TimerEvent: {}
+[8.852192] (-) TimerEvent: {}
+[8.952655] (-) TimerEvent: {}
+[9.061754] (-) TimerEvent: {}
+[9.173211] (-) TimerEvent: {}
+[9.282233] (-) TimerEvent: {}
+[9.390570] (-) TimerEvent: {}
+[9.491733] (-) TimerEvent: {}
+[9.598836] (-) TimerEvent: {}
+[9.704974] (-) TimerEvent: {}
+[9.807862] (-) TimerEvent: {}
+[9.911920] (-) TimerEvent: {}
+[10.015263] (-) TimerEvent: {}
+[10.115939] (-) TimerEvent: {}
+[10.216448] (-) TimerEvent: {}
+[10.323332] (-) TimerEvent: {}
+[10.424352] (-) TimerEvent: {}
+[10.537123] (-) TimerEvent: {}
+[10.639591] (-) TimerEvent: {}
+[10.742090] (-) TimerEvent: {}
+[10.856645] (-) TimerEvent: {}
+[10.957264] (-) TimerEvent: {}
+[11.060073] (-) TimerEvent: {}
+[11.222240] (-) TimerEvent: {}
+[11.405308] (-) TimerEvent: {}
+[11.512632] (-) TimerEvent: {}
+[11.615229] (-) TimerEvent: {}
+[11.715633] (-) TimerEvent: {}
+[11.817383] (-) TimerEvent: {}
+[11.920140] (-) TimerEvent: {}
+[12.035493] (-) TimerEvent: {}
+[12.156472] (-) TimerEvent: {}
+[12.269531] (-) TimerEvent: {}
+[12.400570] (-) TimerEvent: {}
+[12.515028] (-) TimerEvent: {}
+[12.619659] (-) TimerEvent: {}
+[12.722605] (-) TimerEvent: {}
+[12.823352] (-) TimerEvent: {}
+[12.945532] (-) TimerEvent: {}
+[13.121619] (-) TimerEvent: {}
+[13.202827] (warehouse_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/warehouse_sim', 'build', '--build-base', '/home/ros/ros2_ws/build/warehouse_sim/build', 'install', '--record', '/home/ros/ros2_ws/build/warehouse_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/warehouse_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz/gz-sim8/models:/usr/share/gz/gz-sim8/worlds:/home/ros/ros2_ws/src/warehouse_sim/worlds:/home/ros/ros2_ws/src/warehouse_sim/worlds', 'USER': 'ros', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2407', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GZ_MODEL_PATH': '/home/ros/ros2_ws/src/warehouse_sim/models', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/gz:/usr/bin/gz', 'SESSION_MANAGER': 'local/mdria:@/tmp/.ICE-unix/2368,unix/mdria:/tmp/.ICE-unix/2368', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d0fe369_464f_4cf5_b4d3_e78b9374111f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4MOM42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.208', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_ws/build/warehouse_sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_ws/build/warehouse_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages:/home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.222548] (-) TimerEvent: {}
+[13.350034] (color_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/color_detection', 'build', '--build-base', '/home/ros/ros2_ws/build/color_detection/build', 'install', '--record', '/home/ros/ros2_ws/build/color_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/color_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz/gz-sim8/models:/usr/share/gz/gz-sim8/worlds:/home/ros/ros2_ws/src/warehouse_sim/worlds:/home/ros/ros2_ws/src/warehouse_sim/worlds', 'USER': 'ros', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2407', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GZ_MODEL_PATH': '/home/ros/ros2_ws/src/warehouse_sim/models', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/gz:/usr/bin/gz', 'SESSION_MANAGER': 'local/mdria:@/tmp/.ICE-unix/2368,unix/mdria:/tmp/.ICE-unix/2368', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d0fe369_464f_4cf5_b4d3_e78b9374111f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4MOM42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.208', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_ws/build/color_detection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_ws/build/color_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:/home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.355877] (-) TimerEvent: {}
+[13.631646] (-) TimerEvent: {}
+[13.724440] (warehouse_sim) StdoutLine: {'line': b'running egg_info\n'}
+[13.731819] (-) TimerEvent: {}
+[13.770154] (warehouse_sim) StdoutLine: {'line': b'creating ../../build/warehouse_sim/warehouse_sim.egg-info\n'}
+[13.816423] (color_detection) StdoutLine: {'line': b'running egg_info\n'}
+[13.816734] (color_detection) StdoutLine: {'line': b'creating ../../build/color_detection/color_detection.egg-info\n'}
+[13.848794] (color_detection) StdoutLine: {'line': b'writing ../../build/color_detection/color_detection.egg-info/PKG-INFO\n'}
+[13.849588] (-) TimerEvent: {}
+[13.853358] (color_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/color_detection/color_detection.egg-info/dependency_links.txt\n'}
+[13.855009] (color_detection) StdoutLine: {'line': b'writing entry points to ../../build/color_detection/color_detection.egg-info/entry_points.txt\n'}
+[13.855452] (color_detection) StdoutLine: {'line': b'writing requirements to ../../build/color_detection/color_detection.egg-info/requires.txt\n'}
+[13.855784] (color_detection) StdoutLine: {'line': b'writing top-level names to ../../build/color_detection/color_detection.egg-info/top_level.txt\n'}
+[13.856127] (color_detection) StdoutLine: {'line': b"writing manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'\n"}
+[13.870529] (warehouse_sim) StdoutLine: {'line': b'writing ../../build/warehouse_sim/warehouse_sim.egg-info/PKG-INFO\n'}
+[13.878598] (warehouse_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/warehouse_sim/warehouse_sim.egg-info/dependency_links.txt\n'}
+[13.879273] (warehouse_sim) StdoutLine: {'line': b'writing requirements to ../../build/warehouse_sim/warehouse_sim.egg-info/requires.txt\n'}
+[13.879355] (warehouse_sim) StdoutLine: {'line': b'writing top-level names to ../../build/warehouse_sim/warehouse_sim.egg-info/top_level.txt\n'}
+[13.879426] (warehouse_sim) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'\n"}
+[13.950665] (-) TimerEvent: {}
+[14.029938] (color_detection) StdoutLine: {'line': b"reading manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'\n"}
+[14.030147] (color_detection) StdoutLine: {'line': b"writing manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'\n"}
+[14.030220] (color_detection) StdoutLine: {'line': b'running build\n'}
+[14.030282] (color_detection) StdoutLine: {'line': b'running build_py\n'}
+[14.030344] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/color_detection/build\n'}
+[14.030408] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/color_detection/build/lib\n'}
+[14.030466] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/color_detection/build/lib/color_detection\n'}
+[14.030524] (color_detection) StdoutLine: {'line': b'copying color_detection/color_detector.py -> /home/ros/ros2_ws/build/color_detection/build/lib/color_detection\n'}
+[14.035586] (color_detection) StdoutLine: {'line': b'copying color_detection/__init__.py -> /home/ros/ros2_ws/build/color_detection/build/lib/color_detection\n'}
+[14.076814] (-) TimerEvent: {}
+[14.079847] (color_detection) StdoutLine: {'line': b'running install\n'}
+[14.093082] (color_detection) StdoutLine: {'line': b'running install_lib\n'}
+[14.225306] (-) TimerEvent: {}
+[14.326755] (-) TimerEvent: {}
+[14.331559] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection\n'}
+[14.332853] (color_detection) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/color_detection/build/lib/color_detection/color_detector.py -> /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection\n'}
+[14.347435] (color_detection) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/color_detection/build/lib/color_detection/__init__.py -> /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection\n'}
+[14.364471] (color_detection) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection/color_detector.py to color_detector.cpython-312.pyc\n'}
+[14.371859] (color_detection) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection/__init__.py to __init__.cpython-312.pyc\n'}
+[14.375796] (color_detection) StdoutLine: {'line': b'running install_data\n'}
+[14.402132] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/color_detection/share/ament_index\n'}
+[14.402367] (warehouse_sim) StdoutLine: {'line': b"reading manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'\n"}
+[14.402455] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index\n'}
+[14.403046] (warehouse_sim) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'\n"}
+[14.404613] (color_detection) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index/packages\n'}
+[14.404780] (color_detection) StdoutLine: {'line': b'copying resource/color_detection -> /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index/packages\n'}
+[14.404851] (color_detection) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_ws/install/color_detection/share/color_detection\n'}
+[14.404917] (color_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.405765] (warehouse_sim) StdoutLine: {'line': b'running build\n'}
+[14.406294] (warehouse_sim) StdoutLine: {'line': b'running build_py\n'}
+[14.418588] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/warehouse_sim/build\n'}
+[14.419323] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/warehouse_sim/build/lib\n'}
+[14.419432] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim\n'}
+[14.419524] (warehouse_sim) StdoutLine: {'line': b'copying warehouse_sim/__init__.py -> /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim\n'}
+[14.419592] (warehouse_sim) StdoutLine: {'line': b'running install\n'}
+[14.431103] (-) TimerEvent: {}
+[14.465512] (warehouse_sim) StdoutLine: {'line': b'running install_lib\n'}
+[14.534165] (-) TimerEvent: {}
+[14.637476] (color_detection) StdoutLine: {'line': b'Copying ../../build/color_detection/color_detection.egg-info to /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection-0.0.0-py3.12.egg-info\n'}
+[14.651877] (-) TimerEvent: {}
+[14.652033] (color_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[14.691372] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim\n'}
+[14.691614] (warehouse_sim) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim/__init__.py -> /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim\n'}
+[14.703276] (warehouse_sim) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim/__init__.py to __init__.cpython-312.pyc\n'}
+[14.703494] (warehouse_sim) StdoutLine: {'line': b'running install_data\n'}
+[14.705386] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index\n'}
+[14.705566] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index\n'}
+[14.705640] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages\n'}
+[14.705705] (warehouse_sim) StdoutLine: {'line': b'copying resource/warehouse_sim -> /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages\n'}
+[14.710977] (warehouse_sim) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim\n'}
+[14.711187] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch\n'}
+[14.711264] (warehouse_sim) StdoutLine: {'line': b'copying launch/warehouse_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch\n'}
+[14.711330] (warehouse_sim) StdoutLine: {'line': b'copying launch/warehouse_full_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch\n'}
+[14.711393] (warehouse_sim) StdoutLine: {'line': b'copying launch/warehouse_launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch\n'}
+[14.716753] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/worlds\n'}
+[14.724949] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config\n'}
+[14.725621] (warehouse_sim) StdoutLine: {'line': b'copying config/tugbot_control.yaml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config\n'}
+[14.727014] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/models\n'}
+[14.727226] (warehouse_sim) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf\n'}
+[14.727481] (warehouse_sim) StdoutLine: {'line': b'copying urdf/tugbot.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf\n'}
+[14.728913] (warehouse_sim) StdoutLine: {'line': b'copying urdf/tugbot_tf.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf\n'}
+[14.753467] (warehouse_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.753721] (-) TimerEvent: {}
+[14.825393] (warehouse_sim) StdoutLine: {'line': b'Copying ../../build/warehouse_sim/warehouse_sim.egg-info to /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim-0.0.1-py3.12.egg-info\n'}
+[14.833633] (warehouse_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[14.855131] (-) TimerEvent: {}
+[15.000829] (-) TimerEvent: {}
+[15.148365] (-) TimerEvent: {}
+[15.172770] (warehouse_sim) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/warehouse_sim/install.log'\n"}
+[15.173046] (color_detection) StdoutLine: {'line': b'Installing color_detector script to /home/ros/ros2_ws/install/color_detection/lib/color_detection\n'}
+[15.173138] (color_detection) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/color_detection/install.log'\n"}
+[15.175800] (warehouse_sim) CommandEnded: {'returncode': 0}
+[15.248778] (warehouse_sim) JobEnded: {'identifier': 'warehouse_sim', 'rc': 0}
+[15.256856] (-) TimerEvent: {}
+[15.285457] (color_detection) CommandEnded: {'returncode': 0}
+[15.417139] (-) TimerEvent: {}
+[15.442621] (color_detection) JobEnded: {'identifier': 'color_detection', 'rc': 0}
+[15.443132] (-) EventReactorShutdown: {}

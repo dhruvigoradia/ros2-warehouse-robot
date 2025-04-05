@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version="1.10">
+<world name="world_demo">
+<gravity>0 0 -9.8000000000000007</gravity>
+<physics type="ode">
+<max_step_size>0.01</max_step_size>
+<real_time_factor>1</real_time_factor>
+<max_contacts>10</max_contacts>
+<real_time_update_rate>1000</real_time_update_rate>
+</physics>
+<plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics"/>
+<plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands"/>
+<plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster"/>
+<plugin filename="ignition-gazebo-imu-system" name="ignition::gazebo::systems::Imu"/>
+<plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
+<render_engine>ogre2</render_engine>
+</plugin>
+<gui fullscreen="false">
+<plugin filename="GzScene3D" name="3D View">
+<ignition-gui>
+<title>3D View</title>
+<property key="showTitleBar" type="bool">false</property>
+<property key="state" type="string">docked</property>
+</ignition-gui>
+<engine>ogre2</engine>
+<scene>scene</scene>
+<ambient_light>0.4 0.4 0.4</ambient_light>
+<background_color>0.8 0.8 0.8</background_color>
+<camera_pose>13.4 -6.1 2.23 0 0.4 -1.83</camera_pose>
+</plugin>
+<plugin filename="libgz_ros2_control.so" name="gz_ros2_control">
+<parameters>$(find warehouse_sim)/config/tugbot_control.yaml</parameters>
+</plugin>
+<plugin filename="gz-sim-diff-drive-system" name="diff_drive">
+<left_joint>left_wheel_joint</left_joint>
+<right_joint>right_wheel_joint</right_joint>
+<wheel_separation>0.4</wheel_separation>
+<wheel_radius>0.1</wheel_radius>
+<topic>/model/tugbot/cmd_vel</topic>
+<odom_topic>/model/tugbot/odometry</odom_topic>
+</plugin>
+<sensor name="lidar" type="gpu_lidar">
+<update_rate>10</update_rate>
+<plugin filename="libgazebo_ros2_lidar.so" name="gazebo_ros2_lidar">
+<topic>/scan</topic>
+</plugin>
+</sensor>
+<plugin filename="WorldControl" name="World control">
+<ignition-gui>
+<title>World control</title>
+<property key="showTitleBar" type="bool">false</property>
+<property key="resizable" type="bool">false</property>
+<property key="height" type="double">72</property>
+<property key="width" type="double">121</property>
+<property key="z" type="double">1</property>
+<property key="state" type="string">floating</property>
+<anchors target="3D View">
+<line own="left" target="left"/>
+<line own="bottom" target="bottom"/>
+</anchors>
+</ignition-gui>
+<play_pause>true</play_pause>
+<step>true</step>
+<start_paused>true</start_paused>
+</plugin>
+<plugin filename="WorldStats" name="World stats">
+<ignition-gui>
+<title>World stats</title>
+<property key="showTitleBar" type="bool">false</property>
+<property key="resizable" type="bool">false</property>
+<property key="height" type="double">110</property>
+<property key="width" type="double">290</property>
+<property key="z" type="double">1</property>
+<property key="state" type="string">floating</property>
+<anchors target="3D View">
+<line own="right" target="right"/>
+<line own="bottom" target="bottom"/>
+</anchors>
+</ignition-gui>
+<sim_time>true</sim_time>
+<real_time>true</real_time>
+<real_time_factor>true</real_time_factor>
+<iterations>true</iterations>
+</plugin>
+<plugin filename="TransformControl" name="Transform control">
+<ignition-gui>
+<property key="showTitleBar" type="bool">false</property>
+<property key="x" type="double">0</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">250</property>
+<property key="height" type="double">50</property>
+<property key="state" type="string">floating</property>
+<property key="cardBackground" type="string">#666666</property>
+</ignition-gui>
+</plugin>
+<plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+<robot_param>tugbot.urdf</robot_param>
+<robot_param_path>/home/ros/ros2_ws/src/warehouse_sim/urdf/tugbot.urdf</robot_param_path>
+<legacy_mode>false</legacy_mode>
+</plugin>
+<plugin filename="Shapes" name="Shapes">
+<ignition-gui>
+<property key="showTitleBar" type="bool">false</property>
+<property key="x" type="double">250</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">150</property>
+<property key="height" type="double">50</property>
+<property key="state" type="string">floating</property>
+<property key="cardBackground" type="string">#666666</property>
+</ignition-gui>
+</plugin>
+<plugin filename="Screenshot" name="Screenshot">
+<ignition-gui>
+<property key="showTitleBar" type="bool">false</property>
+<property key="x" type="double">400</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">50</property>
+<property key="height" type="double">50</property>
+<property key="state" type="string">floating</property>
+<property key="cardBackground" type="string">#666666</property>
+</ignition-gui>
+</plugin>
+<plugin filename="ComponentInspector" name="Component inspector">
+<ignition-gui>
+<property key="x" type="double">0</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">400</property>
+<property key="height" type="double">375</property>
+<property key="state" type="string">docked_collapsed</property>
+</ignition-gui>
+</plugin>
+<plugin filename="EntityTree" name="Entity tree">
+<ignition-gui>
+<property key="x" type="double">0</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">400</property>
+<property key="height" type="double">375</property>
+<property key="state" type="string">docked_collapsed</property>
+</ignition-gui>
+</plugin>
+<plugin filename="Teleop" name="Teleop">
+<ignition-gui>
+<property key="x" type="double">0</property>
+<property key="y" type="double">0</property>
+<property key="width" type="double">400</property>
+<property key="height" type="double">900</property>
+<property key="state" type="string">docked</property>
+</ignition-gui>
+<topic>/model/tugbot/cmd_vel</topic>
+</plugin>
+</gui>
+<scene>
+<ambient>1 1 1 1</ambient>
+<background>0.300000012 0.699999988 0.899999976 1</background>
+<shadows>false</shadows>
+<grid>false</grid>
+</scene>
+<magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+<atmosphere type="adiabatic"/>
+<model name="ground_plane">
+<static>true</static>
+<link name="link">
+<collision name="collision">
+<geometry>
+<plane>
+<normal>0 0 1</normal>
+<size>1 1</size>
+</plane>
+</geometry>
+<surface>
+<friction>
+<ode/>
+</friction>
+<bounce/>
+<contact/>
+</surface>
+</collision>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+</link>
+<pose>0 0 0 0 0 0</pose>
+<self_collide>false</self_collide>
+</model>
+<model name="red_bin">
+<pose>2 2 0 0 0 0</pose>
+<link name="link">
+<visual name="red_bin_visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>1 0 0 1</ambient>
+<diffuse>1 0 0 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.6 0.6 0.4</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+<plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+<robot_param>tugbot.urdf</robot_param>
+<robot_param_ros2_control>tugbot_control.yaml</robot_param_ros2_control>
+</plugin>
+<sensor name="lidar" type="gpu_lidar">
+<update_rate>10</update_rate>
+<ray>
+<scan>
+<horizontal>
+<samples>720</samples>
+<resolution>1</resolution>
+<min_angle>-1.57</min_angle>
+<max_angle>1.57</max_angle>
+</horizontal>
+</scan>
+<range>
+<min>0.1</min>
+<max>10.0</max>
+<resolution>0.01</resolution>
+</range>
+</ray>
+<plugin filename="libgazebo_ros2_lidar.so" name="gazebo_ros2_lidar">
+<topic>/scan</topic>
+</plugin>
+</sensor>
+</model>
+<model name="red_object">
+<pose>3 2 0.25 0 0 0</pose>
+<link name="link">
+<visual name="red_object_visual">
+<geometry>
+<sphere>
+<radius>0.20000000000000001</radius>
+</sphere>
+</geometry>
+<material>
+<ambient>1 0 0 1</ambient>
+<diffuse>1 0 0 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.3 0.3 0.3</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+</model>
+<model name="blue_bin">
+<pose>-2 2 0 0 0 0</pose>
+<link name="link">
+<visual name="blue_bin_visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>0 0 1 1</ambient>
+<diffuse>0 0 1 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.6 0.6 0.4</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+</model>
+<model name="blue_object">
+<pose>5 2 0.25 0 0 0</pose>
+<link name="link">
+<visual name="blue_object_visual">
+<geometry>
+<sphere>
+<radius>0.20000000000000001</radius>
+</sphere>
+</geometry>
+<material>
+<ambient>0 0 1 1</ambient>
+<diffuse>0 0 1 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.3 0.3 0.3</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+</model>
+<model name="green_bin">
+<pose>2 -2 0 0 0 0</pose>
+<link name="link">
+<visual name="green_bin_visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>0 1 0 1</ambient>
+<diffuse>0 1 0 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.6 0.6 0.4</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+</model>
+<model name="green_object">
+<pose>4 3 0.25 0 0 0</pose>
+<link name="link">
+<visual name="green_object_visual">
+<geometry>
+<sphere>
+<radius>0.20000000000000001</radius>
+</sphere>
+</geometry>
+<material>
+<ambient>0 1 0 1</ambient>
+<diffuse>0 1 0 1</diffuse>
+</material>
+</visual>
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>1</mass>
+<inertia>
+<ixx>1</ixx>
+<ixy>0</ixy>
+<ixz>0</ixz>
+<iyy>1</iyy>
+<iyz>0</iyz>
+<izz>1</izz>
+</inertia>
+</inertial>
+<enable_wind>false</enable_wind>
+<collision name="collision"><geometry><box><size>0.3 0.3 0.3</size></box></geometry></collision></link>
+<static>false</static>
+<self_collide>false</self_collide>
+<plugin filename="libgz_ros2_control.so" name="gz_ros2_control">
+<robot_param>robot_description</robot_param>
+<robot_param_node>robot_state_publisher</robot_param_node>
+<parameters>$(find warehouse_sim)/config/tugbot_control.yaml</parameters>
+</plugin>
+</model>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Warehouse</uri>
+<name>warehouse</name>
+<pose>0 0 -0.089999999999999997 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/Tugbot-charging-station</uri>
+<name>charging_station</name>
+<pose>14.699999999999999 -10.6 -0.040000000000000001 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/Tugbot</uri>
+<name>tugbot</name>
+<pose>13.9 -10.6 0.10000000000000001 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/cart_model_2</uri>
+<name>cart1</name>
+<pose>-5.7300000000000004 15 0.25 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf_big</uri>
+<name>shelf_big_0</name>
+<pose>-9.3417700000000004 -13.559799999999999 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf</name>
+<pose>-4.4152800000000001 -0.69098700000000002 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_0</name>
+<pose>-4.4152800000000001 2.3069700000000002 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_1</name>
+<pose>-4.4152800000000001 5.30708 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_2</name>
+<pose>-4.4152800000000001 8.3435199999999998 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_3</name>
+<pose>5.6014400000000002 8.3435199999999998 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_4</name>
+<pose>5.6014400000000002 5.30708 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_5</name>
+<pose>5.6014400000000002 -0.69098700000000002 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_6</name>
+<pose>5.6014400000000002 2.3069700000000002 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet_box_mobile</uri>
+<name>pallet_box_mobile</name>
+<pose>4.4161000000000001 14.6952 0.01 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet_box_mobile</uri>
+<name>pallet_box_mobile_0</name>
+<pose>4.4541500000000003 13.6212 0.01 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet_box_mobile</uri>
+<name>pallet_box_mobile_1</name>
+<pose>4.4467999999999996 12.228999999999999 0.01 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet_box_mobile</uri>
+<name>pallet_box</name>
+<pose>-6.1191300000000002 13.7079 0.01 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf_big</uri>
+<name>shelf_big_1</name>
+<pose>13.982100000000001 15.319000000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf_big</uri>
+<name>shelf_big_2</name>
+<pose>6.1977700000000002 -12.964700000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf_big</uri>
+<name>shelf_big_3</name>
+<pose>0.59437600000000002 -12.964700000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf_big</uri>
+<name>shelf_big_4</name>
+<pose>-5.3628400000000003 -12.964700000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_7</name>
+<pose>13.3818 -21.241599999999998 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_8</name>
+<pose>13.3818 -19.002800000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_9</name>
+<pose>13.3818 -16.447800000000001 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/shelf</uri>
+<name>shelf_10</name>
+<pose>13.3818 -14.1028 0 0 0 0</pose>
+</include>
+<include>
+<uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet_box_mobile</uri>
+<name>pallet_box_0</name>
+<pose>14.0222 -24.335000000000001 0.01 0 0 0</pose>
+</include>
+<light name="sun" type="directional">
+<pose>-5 -3 10 0 0 0</pose>
+<cast_shadows>false</cast_shadows>
+<intensity>1</intensity>
+<direction>0 0 -1</direction>
+<diffuse>1 1 1 1</diffuse>
+<specular>1 1 1 1</specular>
+<attenuation>
+<range>10</range>
+<linear>1</linear>
+<constant>1</constant>
+<quadratic>0</quadratic>
+</attenuation>
+<spot>
+<inner_angle>0</inner_angle>
+<outer_angle>0</outer_angle>
+<falloff>0</falloff>
+</spot>
+</light>
+<model name="yellow_bin">
+<pose>4 1 0.25 0 0 0</pose>
+<static>true</static>
+<link name="link">
+<visual name="visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>1 1 0 1</ambient>
+<diffuse>1 1 0 1</diffuse>
+</material>
+</visual>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+</collision>
+</link>
+</model>
+<model name="orange_bin">
+<pose>5 1 0.25 0 0 0</pose>
+<static>true</static>
+<link name="link">
+<visual name="visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>1 0.5 0 1</ambient>
+<diffuse>1 0.5 0 1</diffuse>
+</material>
+</visual>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+</collision>
+</link>
+</model>
+<model name="pink_bin">
+<pose>6 1 0.25 0 0 0</pose>
+<static>true</static>
+<link name="link">
+<visual name="visual">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+<material>
+<ambient>1 0 1 1</ambient>
+<diffuse>1 0 1 1</diffuse>
+</material>
+</visual>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.5 0.5 0.5</size>
+</box>
+</geometry>
+</collision>
+</link>
+</model>
+</world>
+</sdf>

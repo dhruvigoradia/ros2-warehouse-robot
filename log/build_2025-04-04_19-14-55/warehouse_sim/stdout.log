@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/warehouse_sim/warehouse_sim.egg-info
+writing ../../build/warehouse_sim/warehouse_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_sim/warehouse_sim.egg-info/dependency_links.txt
+writing requirements to ../../build/warehouse_sim/warehouse_sim.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_sim/warehouse_sim.egg-info/top_level.txt
+writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_sim/warehouse_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/ros2_ws/build/warehouse_sim/build
+creating /home/ros/ros2_ws/build/warehouse_sim/build/lib
+creating /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim
+copying warehouse_sim/__init__.py -> /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim
+running install
+running install_lib
+creating /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim
+copying /home/ros/ros2_ws/build/warehouse_sim/build/lib/warehouse_sim/__init__.py -> /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim
+byte-compiling /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index
+creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index
+creating /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages
+copying resource/warehouse_sim -> /home/ros/ros2_ws/install/warehouse_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim
+creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+copying launch/warehouse_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+copying launch/warehouse_full_slam.launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+copying launch/warehouse_launch.py -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/launch
+creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/worlds
+creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config
+copying config/tugbot_control.yaml -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/config
+creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/models
+creating /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+copying urdf/tugbot.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+copying urdf/tugbot_tf.urdf -> /home/ros/ros2_ws/install/warehouse_sim/share/warehouse_sim/urdf
+running install_egg_info
+Copying ../../build/warehouse_sim/warehouse_sim.egg-info to /home/ros/ros2_ws/install/warehouse_sim/lib/python3.12/site-packages/warehouse_sim-0.0.1-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ros/ros2_ws/build/warehouse_sim/install.log'

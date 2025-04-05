@@ -1,0 +1,19 @@
+[5.338s] Invoking command in '/home/ros/ros2_ws/build/color_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/color_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/color_detection/build --no-deps symlink_data --force
+[5.969s] running develop
+[6.209s] running egg_info
+[6.226s] writing color_detection.egg-info/PKG-INFO
+[6.229s] writing dependency_links to color_detection.egg-info/dependency_links.txt
+[6.235s] writing entry points to color_detection.egg-info/entry_points.txt
+[6.237s] writing requirements to color_detection.egg-info/requires.txt
+[6.246s] writing top-level names to color_detection.egg-info/top_level.txt
+[6.368s] reading manifest file 'color_detection.egg-info/SOURCES.txt'
+[6.385s] writing manifest file 'color_detection.egg-info/SOURCES.txt'
+[6.410s] running build_ext
+[6.412s] Creating /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color-detection.egg-link (link to .)
+[6.415s] Installing color_detector script to /home/ros/ros2_ws/install/color_detection/lib/color_detection
+[6.416s] 
+[6.416s] Installed /home/ros/ros2_ws/build/color_detection
+[6.416s] running symlink_data
+[6.417s] symbolically linking /home/ros/ros2_ws/build/color_detection/resource/color_detection -> /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index/packages
+[6.417s] symbolically linking /home/ros/ros2_ws/build/color_detection/package.xml -> /home/ros/ros2_ws/install/color_detection/share/color_detection
+[6.476s] Invoked command in '/home/ros/ros2_ws/build/color_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/color_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/color_detection/build --no-deps symlink_data --force

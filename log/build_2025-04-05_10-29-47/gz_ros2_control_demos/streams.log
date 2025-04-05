@@ -1,0 +1,140 @@
+[0.062s] Invoking command in '/home/ros/ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros/ros2_ws/src/gz_ros2_control_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/gz_ros2_control_demos
+[0.337s] -- The C compiler identification is GNU 13.3.0
+[0.479s] -- The CXX compiler identification is GNU 13.3.0
+[0.507s] -- Detecting C compiler ABI info
+[0.781s] -- Detecting C compiler ABI info - done
+[0.801s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.801s] -- Detecting C compile features
+[0.801s] -- Detecting C compile features - done
+[0.838s] -- Detecting CXX compiler ABI info
+[1.586s] -- Detecting CXX compiler ABI info - done
+[1.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.608s] -- Detecting CXX compile features
+[1.610s] -- Detecting CXX compile features - done
+[1.614s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.922s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.124s] -- Found control_msgs: 5.3.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[2.402s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.495s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.588s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.885s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.060s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.702s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.855s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.884s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.025s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.031s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.033s] -- Configured cppcheck include dirs: 
+[4.033s] -- Configured cppcheck exclude dirs and/or files: 
+[4.035s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.035s] -- Configured cpplint exclude dirs and/or files: 
+[4.036s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.036s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.039s] -- Added test 'lint_cmake' to check CMake code style
+[4.039s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.042s] -- Added test 'uncrustify' to check C / C++ code style
+[4.043s] -- Configured uncrustify additional arguments: 
+[4.044s] -- Added test 'xmllint' to check XML markup files
+[4.048s] -- Configuring done (3.9s)
+[4.076s] -- Generating done (0.0s)
+[4.094s] -- Build files have been written to: /home/ros/ros2_ws/build/gz_ros2_control_demos
+[4.112s] Invoked command in '/home/ros/ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros/ros2_ws/src/gz_ros2_control_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/gz_ros2_control_demos
+[4.112s] Invoking command in '/home/ros/ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/gz_ros2_control_demos -- -j2 -l2
+[4.221s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[10.171s] [ 14%] [32m[1mLinking CXX executable example_position[0m
+[10.402s] [ 14%] Built target example_position
+[10.451s] [ 21%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[15.171s] [ 28%] [32m[1mLinking CXX executable example_velocity[0m
+[15.596s] [ 28%] Built target example_velocity
+[15.698s] [ 35%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[20.491s] [ 42%] [32m[1mLinking CXX executable example_effort[0m
+[20.929s] [ 42%] Built target example_effort
+[20.978s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[24.222s] [ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[24.370s] [ 57%] Built target example_diff_drive
+[24.434s] [ 64%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[28.313s] [ 71%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[28.577s] [ 71%] Built target example_tricycle_drive
+[28.639s] [ 78%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[32.828s] [ 85%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[33.277s] [ 85%] Built target example_ackermann_drive
+[33.322s] [ 92%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[38.698s] [100%] [32m[1mLinking CXX executable example_gripper[0m
+[39.155s] [100%] Built target example_gripper
+[39.202s] Invoked command in '/home/ros/ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/gz_ros2_control_demos -- -j2 -l2
+[39.202s] Invoking command in '/home/ros/ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/gz_ros2_control_demos
+[39.219s] -- Install configuration: ""
+[39.220s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch
+[39.221s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[39.223s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[39.223s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[39.224s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[39.225s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[39.226s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[39.226s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[39.227s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[39.228s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[39.231s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[39.231s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[39.231s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[39.232s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[39.232s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[39.233s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config
+[39.233s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+[39.234s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[39.235s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[39.238s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[39.239s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[39.240s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+[39.241s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+[39.241s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[39.242s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[39.242s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf
+[39.242s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_diff_drive.xacro.sdf
+[39.243s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_ackermann_drive.xacro.sdf
+[39.245s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf
+[39.245s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[39.246s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[39.247s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[39.248s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[39.249s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[39.249s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[39.250s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[39.251s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[39.252s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[39.253s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[39.254s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[39.255s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[39.257s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position" to ""
+[39.257s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[39.259s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity" to ""
+[39.259s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[39.261s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort" to ""
+[39.262s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[39.264s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive" to ""
+[39.264s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[39.264s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive" to ""
+[39.264s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+[39.267s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive" to ""
+[39.267s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[39.270s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper" to ""
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[39.270s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[39.272s] -- Installing: /home/ros/ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[39.275s] Invoked command in '/home/ros/ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/gz_ros2_control_demos

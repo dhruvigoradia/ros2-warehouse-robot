@@ -1,0 +1,233 @@
+[0.098s] Invoking command in '/home/ros/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/controller_manager
+[0.231s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting CXX compiler ABI info
+[0.634s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.663s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.670s] -- Found ros2_control_cmake: 0.1.1 (/home/ros/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.670s] -- Compiler warnings enabled for GNU
+[0.670s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.679s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.078s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.341s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.452s] -- Found controller_interface: 4.27.0 (/home/ros/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.685s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.746s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.157s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.233s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.240s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.279s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.448s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.451s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.481s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.484s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.497s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.511s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.113s] -- Found controller_manager_msgs: 4.27.0 (/home/ros/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[3.260s] -- Found diagnostic_updater: 4.2.2 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[3.359s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.393s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.473s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.475s] -- Found ros2_control_test_assets: 4.27.0 (/home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.485s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[3.549s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.648s] -- The C compiler identification is GNU 13.3.0
+[3.745s] -- Detecting C compiler ABI info
+[4.092s] -- Detecting C compiler ABI info - done
+[4.101s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.102s] -- Detecting C compile features
+[4.102s] -- Detecting C compile features - done
+[4.111s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.112s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.131s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[6.320s] -- Configuring done (6.2s)
+[6.538s] -- Generating done (0.2s)
+[6.603s] -- Build files have been written to: /home/ros/ros2_ws/build/controller_manager
+[6.701s] Invoked command in '/home/ros/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/controller_manager
+[6.702s] Invoking command in '/home/ros/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/controller_manager -- -j2 -l2
+[6.705s] [  2%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/ros/ros2_ws/build/controller_manager/include/controller_manager/controller_manager_parameters.hpp /home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/controller_manager_parameters.yaml `[0m
+[8.170s] [  4%] [34m[1mCreating deprecated header file /home/ros/ros2_ws/build/controller_manager/include/controller_manager_parameters.hpp[0m
+[8.473s] [  4%] Built target controller_manager_parameters
+[8.521s] [  7%] [34m[1mGenerating controller_manager/version.h[0m
+[8.571s] [  7%] Built target ament_generate_version_header__controller_manager
+[8.597s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[9.864s] [ 11%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[10.022s] [ 11%] Built target gmock_main
+[10.082s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[15.629s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.728s] [ 19%] [32m[1mLinking CXX static library libgmock.a[0m
+[17.828s] [ 19%] Built target gmock
+[17.870s] [ 19%] Built target ament_cmake_python_symlink_controller_manager_setup
+[17.910s] [ 19%] Built target ament_cmake_python_symlink_controller_manager
+[18.253s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[23.234s] [01m[K/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:[m[K In member function ‘[01m[Kcontroller_interface::return_type controller_manager::ControllerManager::[01;32m[Kconfigure_controller[m[K(const std::string&)[m[K’:
+[23.236s] [01m[K/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:1157:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool parameter_traits::[01;32m[Kis_unique[m[K(const std::vector<BufferT>&) [35m[K[with T = std::__cxx11::basic_string<char>][m[K[m[K’ is deprecated: Use rsl::is_unique instead. `#include <rsl/algorithm.hpp>` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[23.237s]  1157 |   if (![01;35m[Kis_unique(cmd_itfs)[m[K)
+[23.237s]       |        [01;35m[K~~~~~~~~~^~~~~~~~~~[m[K
+[23.237s] In file included from [01m[K/home/ros/ros2_ws/build/controller_manager/include/controller_manager/controller_manager_parameters.hpp:24[m[K,
+[23.237s]                  from [01m[K/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:32[m[K:
+[23.237s] [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:65:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.237s]    65 | [01;36m[Kis_unique[m[K(std::vector<T> const& x) {
+[23.237s]       | [01;36m[K^~~~~~~~~[m[K
+[23.237s] [01m[K/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:1171:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool parameter_traits::[01;32m[Kis_unique[m[K(const std::vector<BufferT>&) [35m[K[with T = std::__cxx11::basic_string<char>][m[K[m[K’ is deprecated: Use rsl::is_unique instead. `#include <rsl/algorithm.hpp>` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[23.237s]  1171 |   if (![01;35m[Kis_unique(state_itfs)[m[K)
+[23.237s]       |        [01;35m[K~~~~~~~~~^~~~~~~~~~~~[m[K
+[23.237s] [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:65:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.242s]    65 | [01;36m[Kis_unique[m[K(std::vector<T> const& x) {
+[23.242s]       | [01;36m[K^~~~~~~~~[m[K
+[46.305s] [ 23%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[52.725s] [ 23%] Built target controller_manager
+[56.982s] running egg_info
+[56.985s] creating controller_manager.egg-info
+[57.013s] writing controller_manager.egg-info/PKG-INFO
+[57.016s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[57.016s] writing entry points to controller_manager.egg-info/entry_points.txt
+[57.022s] writing top-level names to controller_manager.egg-info/top_level.txt
+[57.022s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[57.079s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[57.085s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[57.166s] [ 23%] Built target ament_cmake_python_build_controller_manager_egg
+[57.548s] running install_scripts
+[57.603s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[57.603s] !!
+[57.603s] 
+[57.604s]         ********************************************************************************
+[57.604s]         Please avoid running ``setup.py`` directly.
+[57.604s]         Instead, use pypa/build, pypa/installer or other
+[57.604s]         standards-based tools.
+[57.604s] 
+[57.604s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[57.604s]         ********************************************************************************
+[57.604s] 
+[57.604s] !!
+[57.604s]   self.initialize_options()
+[57.671s] running egg_info
+[57.830s] writing controller_manager.egg-info/PKG-INFO
+[57.835s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[57.835s] writing entry points to controller_manager.egg-info/entry_points.txt
+[57.835s] writing top-level names to controller_manager.egg-info/top_level.txt
+[57.898s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[57.903s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[58.871s] Installing hardware_spawner script to scripts
+[58.878s] Installing spawner script to scripts
+[58.886s] Installing unspawner script to scripts
+[59.002s] [ 23%] Built target ament_cmake_python_build_controller_manager_scripts
+[59.209s] [ 26%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[68.638s] [ 28%] [32m[1mLinking CXX executable ros2_control_node[0m
+[70.292s] [ 28%] Built target ros2_control_node
+[70.361s] [ 30%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[75.805s] [ 33%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[76.594s] [ 33%] Built target test_controller
+[76.688s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[79.911s] [ 38%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[80.392s] [ 38%] Built target test_controller_failed_init
+[80.506s] [ 40%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[987.118s] [ 42%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[991.225s] [ 45%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[996.544s] [ 45%] Built target test_chainable_controller
+[1005.356s] [ 47%] [32m[1mLinking CXX executable test_controller_manager_with_namespace[0m
+[1007.245s] [ 47%] Built target test_controller_manager_with_namespace
+[1007.328s] [ 50%] [32mBuilding CXX object CMakeFiles/test_controller_manager_hardware_error_handling.dir/test/test_controller_manager_hardware_error_handling.cpp.o[0m
+[1017.214s] [ 52%] [32m[1mLinking CXX executable test_controller_manager_hardware_error_handling[0m
+[1019.129s] [ 52%] Built target test_controller_manager_hardware_error_handling
+[1019.282s] [ 54%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[1028.463s] [ 57%] [32m[1mLinking CXX executable test_load_controller[0m
+[1030.025s] [ 57%] Built target test_load_controller
+[1030.124s] [ 59%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[1040.641s] [ 61%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[1042.704s] [ 61%] Built target test_controllers_chaining_with_controller_manager
+[1042.775s] [ 64%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[1058.528s] [ 66%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[1067.697s] [ 66%] Built target test_controller_manager_srvs
+[1067.881s] [ 69%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[1078.492s] [ 71%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[1080.038s] [ 71%] Built target test_controller_manager_urdf_passing
+[1080.088s] [ 73%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[1083.018s] [ 76%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[1083.211s] [ 76%] Built target test_controller_with_interfaces
+[1083.260s] [ 78%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[1092.117s] [ 80%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[1093.202s] [ 80%] Built target test_spawner_unspawner
+[1093.284s] [ 83%] [32mBuilding CXX object CMakeFiles/test_hardware_spawner.dir/test/test_hardware_spawner.cpp.o[0m
+[1100.842s] [ 85%] [32m[1mLinking CXX executable test_hardware_spawner[0m
+[1102.132s] [ 85%] Built target test_hardware_spawner
+[1102.184s] [ 88%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[1110.249s] [ 90%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[1112.100s] [ 90%] Built target test_hardware_management_srvs
+[1112.144s] [ 92%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[1127.968s] [ 95%] [32m[1mLinking CXX executable test_controller_manager[0m
+[1129.396s] [ 95%] Built target test_controller_manager
+[1129.526s] [ 97%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[1136.462s] [100%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[1137.366s] [100%] Built target test_release_interfaces
+[1137.441s] Invoked command in '/home/ros/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/controller_manager -- -j2 -l2
+[1137.447s] Invoking command in '/home/ros/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/controller_manager
+[1137.470s] -- Install configuration: ""
+[1137.474s] -- Execute custom install script
+[1137.476s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/include/controller_manager/controller_manager_parameters.hpp
+[1137.505s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[1137.525s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/libtest_controller.so
+[1137.545s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[1137.565s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[1137.578s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[1137.598s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[1137.611s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[1137.627s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[1137.640s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/test/test_ros2_control_node.yaml
+[1137.655s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp
+[1137.668s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/include/controller_manager/controller_manager/controller_spec.hpp
+[1137.686s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[1137.708s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[1137.733s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[1137.750s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.27.0-py3.12.egg-info/PKG-INFO
+[1137.764s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.27.0-py3.12.egg-info/SOURCES.txt
+[1137.777s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.27.0-py3.12.egg-info/dependency_links.txt
+[1137.796s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.27.0-py3.12.egg-info/entry_points.txt
+[1137.815s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.27.0-py3.12.egg-info/top_level.txt
+[1137.830s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[1137.843s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/controller_manager//spawner
+[1137.857s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/controller_manager//unspawner
+[1137.875s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/__init__.py
+[1137.889s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/controller_manager_services.py
+[1137.903s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/hardware_spawner.py
+[1137.918s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/launch_utils.py
+[1137.930s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/spawner.py
+[1137.944s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/test_utils.py
+[1137.957s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/unspawner.py
+[1137.972s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[1137.988s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[1138.004s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[1138.019s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[1138.036s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[1138.049s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[1138.065s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[1138.080s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[1138.099s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[1138.115s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[1138.136s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[1138.154s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[1138.173s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[1138.192s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[1138.210s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[1138.231s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[1138.254s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[1138.273s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[1138.344s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[1138.410s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/package.xml
+[1138.455s] -- Symlinking: /home/ros/ros2_ws/install/controller_manager/include/controller_manager/controller_manager/version.h
+[1138.477s] -- Installing: /home/ros/ros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[1138.527s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[1138.590s] Listing '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/__init__.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/controller_manager_services.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/hardware_spawner.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/launch_utils.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/spawner.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/test_utils.py'...
+[1138.591s] Compiling '/home/ros/ros2_ws/install/controller_manager/lib/python3.12/site-packages/controller_manager/unspawner.py'...
+[1138.601s] -- Installing: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport.cmake
+[1138.605s] -- Installing: /home/ros/ros2_ws/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport-noconfig.cmake
+[1138.610s] Invoked command in '/home/ros/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/hardware_interface_testing:/home/ros/ros2_ws/install/controller_interface:/home/ros/ros2_ws/install/hardware_interface:/home/ros/ros2_ws/install/joint_limits:/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_test_assets:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/hardware_interface_testing/lib:/home/ros/ros2_ws/install/controller_interface/lib:/home/ros/ros2_ws/install/hardware_interface/lib:/home/ros/ros2_ws/install/joint_limits/lib:/home/ros/ros2_ws/install/realtime_tools/lib:/home/ros/ros2_ws/install/ros2_control_test_assets/lib:/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/controller_manager

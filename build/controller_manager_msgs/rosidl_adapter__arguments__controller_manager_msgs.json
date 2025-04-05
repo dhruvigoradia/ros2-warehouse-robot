@@ -1,0 +1,21 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/NamedLifecycleState.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/ControllerManagerActivity.msg",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/ros/ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

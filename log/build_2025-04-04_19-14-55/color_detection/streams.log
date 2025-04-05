@@ -1,0 +1,37 @@
+[13.352s] Invoking command in '/home/ros/ros2_ws/src/color_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/color_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detection build --build-base /home/ros/ros2_ws/build/color_detection/build install --record /home/ros/ros2_ws/build/color_detection/install.log --single-version-externally-managed install_data
+[13.813s] running egg_info
+[13.813s] creating ../../build/color_detection/color_detection.egg-info
+[13.846s] writing ../../build/color_detection/color_detection.egg-info/PKG-INFO
+[13.850s] writing dependency_links to ../../build/color_detection/color_detection.egg-info/dependency_links.txt
+[13.851s] writing entry points to ../../build/color_detection/color_detection.egg-info/entry_points.txt
+[13.852s] writing requirements to ../../build/color_detection/color_detection.egg-info/requires.txt
+[13.852s] writing top-level names to ../../build/color_detection/color_detection.egg-info/top_level.txt
+[13.852s] writing manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'
+[14.026s] reading manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'
+[14.026s] writing manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'
+[14.027s] running build
+[14.027s] running build_py
+[14.027s] creating /home/ros/ros2_ws/build/color_detection/build
+[14.027s] creating /home/ros/ros2_ws/build/color_detection/build/lib
+[14.027s] creating /home/ros/ros2_ws/build/color_detection/build/lib/color_detection
+[14.027s] copying color_detection/color_detector.py -> /home/ros/ros2_ws/build/color_detection/build/lib/color_detection
+[14.073s] copying color_detection/__init__.py -> /home/ros/ros2_ws/build/color_detection/build/lib/color_detection
+[14.076s] running install
+[14.090s] running install_lib
+[14.329s] creating /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection
+[14.329s] copying /home/ros/ros2_ws/build/color_detection/build/lib/color_detection/color_detector.py -> /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection
+[14.359s] copying /home/ros/ros2_ws/build/color_detection/build/lib/color_detection/__init__.py -> /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection
+[14.361s] byte-compiling /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection/color_detector.py to color_detector.cpython-312.pyc
+[14.368s] byte-compiling /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection/__init__.py to __init__.cpython-312.pyc
+[14.372s] running install_data
+[14.399s] creating /home/ros/ros2_ws/install/color_detection/share/ament_index
+[14.399s] creating /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index
+[14.401s] creating /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index/packages
+[14.401s] copying resource/color_detection -> /home/ros/ros2_ws/install/color_detection/share/ament_index/resource_index/packages
+[14.401s] copying package.xml -> /home/ros/ros2_ws/install/color_detection/share/color_detection
+[14.401s] running install_egg_info
+[14.648s] Copying ../../build/color_detection/color_detection.egg-info to /home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages/color_detection-0.0.0-py3.12.egg-info
+[14.648s] running install_scripts
+[15.169s] Installing color_detector script to /home/ros/ros2_ws/install/color_detection/lib/color_detection
+[15.169s] writing list of installed files to '/home/ros/ros2_ws/build/color_detection/install.log'
+[15.282s] Invoked command in '/home/ros/ros2_ws/src/color_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/color_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/color_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detection build --build-base /home/ros/ros2_ws/build/color_detection/build install --record /home/ros/ros2_ws/build/color_detection/install.log --single-version-externally-managed install_data

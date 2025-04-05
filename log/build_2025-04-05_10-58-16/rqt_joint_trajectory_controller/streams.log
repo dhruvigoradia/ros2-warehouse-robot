@@ -1,0 +1,32 @@
+[1.708s] Invoking command in '/home/ros/ros2_ws/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data
+[2.038s] running develop
+[2.449s] running egg_info
+[2.449s] creating rqt_joint_trajectory_controller.egg-info
+[2.467s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[2.468s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[2.468s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[2.469s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[2.469s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[2.469s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[2.508s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[2.510s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[2.540s] running build_ext
+[2.540s] Creating /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[2.540s] Installing rqt_joint_trajectory_controller script to /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[2.541s] 
+[2.541s] Installed /home/ros/ros2_ws/build/rqt_joint_trajectory_controller
+[2.541s] running symlink_data
+[2.541s] creating /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/ament_index
+[2.541s] creating /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[2.541s] creating /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/rqt_joint_trajectory_controller -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/package.xml -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[2.541s] creating /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/double_editor.ui -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/scope.png -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/off.svg -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/joint_trajectory_controller.ui -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/scope.svg -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/resource/on.svg -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[2.541s] symbolically linking /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/plugin.xml -> /home/ros/ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[2.600s] Invoked command in '/home/ros/ros2_ws/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/controller_manager_msgs:/home/ros/ros2_ws/install/control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/controller_manager_msgs/lib:/home/ros/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros2_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/ros/ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ros/ros2_ws/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data

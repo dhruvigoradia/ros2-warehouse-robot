@@ -1,0 +1,43 @@
+[0.049s] Invoking command in '/home/ros/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/ros2_control_test_assets
+[0.540s] -- The CXX compiler identification is GNU 13.3.0
+[0.672s] -- Detecting CXX compiler ABI info
+[1.968s] -- Detecting CXX compiler ABI info - done
+[1.993s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.994s] -- Detecting CXX compile features
+[1.995s] -- Detecting CXX compile features - done
+[2.050s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.074s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.491s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.364s] -- Configuring done (4.3s)
+[4.403s] -- Generating done (0.0s)
+[4.412s] -- Build files have been written to: /home/ros/ros2_ws/build/ros2_control_test_assets
+[4.457s] Invoked command in '/home/ros/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/ros2_control_test_assets
+[4.458s] Invoking command in '/home/ros/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/ros2_ws/build/ros2_control_test_assets -- -j2 -l2
+[4.519s] Invoked command in '/home/ros/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/ros2_ws/build/ros2_control_test_assets -- -j2 -l2
+[4.538s] Invoking command in '/home/ros/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/ros2_ws/build/ros2_control_test_assets
+[4.614s] -- Install configuration: ""
+[4.615s] -- Execute custom install script
+[4.616s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[4.816s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[4.865s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_hardware_interface_constants.hpp
+[4.931s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+[5.013s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[5.083s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[5.146s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[5.184s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[5.217s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[5.269s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[5.373s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[5.439s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[5.529s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[5.583s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[5.668s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[5.779s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[5.896s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[5.995s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[6.047s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[6.104s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[6.168s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[6.197s] -- Symlinking: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[6.245s] -- Installing: /home/ros/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[6.274s] Invoked command in '/home/ros/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/ros2_ws/build/ros2_control_test_assets

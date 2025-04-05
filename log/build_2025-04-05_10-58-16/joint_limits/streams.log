@@ -1,0 +1,133 @@
+[0.060s] Invoking command in '/home/ros/ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/joint_limits
+[0.240s] -- The CXX compiler identification is GNU 13.3.0
+[0.587s] -- Detecting CXX compiler ABI info
+[3.391s] -- Detecting CXX compiler ABI info - done
+[3.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.415s] -- Detecting CXX compile features
+[3.432s] -- Detecting CXX compile features - done
+[3.442s] -- Found ros2_control_cmake: 0.1.1 (/home/ros/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[3.454s] -- Compiler warnings enabled for GNU
+[3.454s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[3.515s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.885s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.417s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[4.622s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.643s] -- Found realtime_tools: 3.4.0 (/home/ros/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[4.742s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.803s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.689s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.728s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.017s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.780s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.800s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.892s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.912s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.965s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.138s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[11.496s] -- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[12.696s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[12.909s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[12.921s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[12.955s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[13.718s] -- Found launch_testing_ament_cmake: 3.4.3 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[13.796s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.520s] -- Found PythonExtra: /usr/bin/python3  
+[14.539s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[15.116s] -- The C compiler identification is GNU 13.3.0
+[15.362s] -- Detecting C compiler ABI info
+[16.910s] -- Detecting C compiler ABI info - done
+[16.967s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.969s] -- Detecting C compile features
+[16.969s] -- Detecting C compile features - done
+[16.991s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[17.014s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[17.388s] -- Configuring done (17.3s)
+[17.533s] -- Generating done (0.1s)
+[17.557s] -- Build files have been written to: /home/ros/ros2_ws/build/joint_limits
+[17.575s] Invoked command in '/home/ros/ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros/ros2_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/joint_limits
+[17.576s] Invoking command in '/home/ros/ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/joint_limits -- -j2 -l2
+[17.836s] [  4%] [32mBuilding CXX object CMakeFiles/joint_limiter_interface.dir/src/joint_limiter_interface.cpp.o[0m
+[23.709s] [  8%] [32m[1mLinking CXX shared library libjoint_limiter_interface.so[0m
+[24.729s] [  8%] Built target joint_limiter_interface
+[25.031s] [ 12%] [32mBuilding CXX object CMakeFiles/joint_limits_helpers.dir/src/joint_limits_helpers.cpp.o[0m
+[28.599s] [ 16%] [32m[1mLinking CXX shared library libjoint_limits_helpers.so[0m
+[29.135s] [ 16%] Built target joint_limits_helpers
+[29.326s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[32.326s] [ 25%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[32.744s] [ 25%] Built target gmock_main
+[32.893s] [ 29%] [34m[1mGenerating joint_limits/version.h[0m
+[33.105s] [ 29%] Built target ament_generate_version_header__joint_limits
+[33.286s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[45.663s] [ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[52.928s] [ 41%] [32m[1mLinking CXX static library libgmock.a[0m
+[53.271s] [ 41%] Built target gmock
+[53.469s] [ 45%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_saturation_limiter.cpp.o[0m
+[60.769s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_range_limiter.cpp.o[0m
+[66.295s] [ 54%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_soft_limiter.cpp.o[0m
+[76.125s] [ 58%] [32m[1mLinking CXX shared library libjoint_saturation_limiter.so[0m
+[76.573s] [ 58%] Built target joint_saturation_limiter
+[76.701s] [ 62%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[84.673s] [ 66%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[85.114s] [ 66%] Built target joint_limits_rosparam_test
+[85.299s] [ 70%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[90.601s] [ 75%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[91.687s] [ 75%] Built target joint_limits_urdf_test
+[91.875s] [ 79%] [32mBuilding CXX object CMakeFiles/test_joint_saturation_limiter.dir/test/test_joint_saturation_limiter.cpp.o[0m
+[110.061s] [ 83%] [32m[1mLinking CXX executable test_joint_saturation_limiter[0m
+[110.553s] [ 83%] Built target test_joint_saturation_limiter
+[110.690s] [ 87%] [32mBuilding CXX object CMakeFiles/test_joint_range_limiter.dir/test/test_joint_range_limiter.cpp.o[0m
+[124.941s] [ 91%] [32m[1mLinking CXX executable test_joint_range_limiter[0m
+[126.259s] [ 91%] Built target test_joint_range_limiter
+[126.468s] [ 95%] [32mBuilding CXX object CMakeFiles/test_joint_soft_limiter.dir/test/test_joint_soft_limiter.cpp.o[0m
+[143.350s] [100%] [32m[1mLinking CXX executable test_joint_soft_limiter[0m
+[144.862s] [100%] Built target test_joint_soft_limiter
+[144.917s] Invoked command in '/home/ros/ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros/ros2_ws/build/joint_limits -- -j2 -l2
+[144.932s] Invoking command in '/home/ros/ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/joint_limits
+[144.964s] -- Install configuration: ""
+[144.964s] -- Execute custom install script
+[144.964s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits//joint_limiters.xml
+[145.007s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[145.032s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[145.185s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+[145.235s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/data_structures.hpp
+[145.265s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+[145.332s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[145.388s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_helpers.hpp
+[145.443s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[145.443s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+[145.472s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+[145.535s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_soft_limiter.hpp
+[145.575s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+[145.615s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[145.670s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[145.691s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[145.726s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[145.893s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[145.951s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[145.965s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[145.986s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[146.021s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[146.125s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[146.216s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[146.260s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+[146.329s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[146.412s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+[146.469s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[146.513s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[146.535s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[146.609s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[146.662s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/package.xml
+[146.696s] -- Symlinking: /home/ros/ros2_ws/install/joint_limits/include/joint_limits/joint_limits/version.h
+[146.717s] -- Installing: /home/ros/ros2_ws/install/joint_limits/lib/libjoint_limiter_interface.so
+[146.720s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/joint_limits/lib/libjoint_limiter_interface.so" to ""
+[146.720s] -- Installing: /home/ros/ros2_ws/install/joint_limits/lib/libjoint_saturation_limiter.so
+[146.724s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/joint_limits/lib/libjoint_saturation_limiter.so" to ""
+[146.726s] -- Installing: /home/ros/ros2_ws/install/joint_limits/lib/libjoint_limits_helpers.so
+[146.728s] -- Set non-toolchain portion of runtime path of "/home/ros/ros2_ws/install/joint_limits/lib/libjoint_limits_helpers.so" to ""
+[146.728s] -- Installing: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[146.731s] -- Installing: /home/ros/ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-noconfig.cmake
+[146.736s] Invoked command in '/home/ros/ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/install/realtime_tools:/home/ros/ros2_ws/install/ros2_control_cmake:/home/ros/ros2_ws/install/gz_ros2_control_tests:/home/ros/ros2_ws/install/gz_ros2_control_demos:/home/ros/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/ros2_ws/install/warehouse_sim:/home/ros/ros2_ws/install/color_detection:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ros/ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros/ros2_ws/build/joint_limits

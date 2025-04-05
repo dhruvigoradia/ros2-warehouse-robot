@@ -1,0 +1,10 @@
+<robot name="tugbot">
+  <link name="odom"/>
+  <link name="base_link"/>
+
+  <joint name="odom_to_base" type="fixed">
+    <parent link="odom"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
